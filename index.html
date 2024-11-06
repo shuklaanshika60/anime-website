@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Anime World</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#characters">Featured Characters</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Anime World</h2>
+        <p>Welcome to the Anime World, your ultimate destination for all things anime! Whether you're a seasoned otaku or new to the world of anime, we’re here to share the magic, adventure, and artistry of this captivating medium. Our site is a hub for anime enthusiasts, offering the latest news, reviews, and recommendations on your favorite series, movies, and manga. <br>
+
+            At the Anime World, we believe that anime is more than just entertainment; it’s a cultural phenomenon that brings people together through epic storytelling, vivid animation, and unforgettable characters. Our goal is to create a community where fans can connect, discuss, and celebrate the anime they love. From in-depth articles and character spotlights to the hottest upcoming releases, we cover everything to keep you in the loop.
+            
+            Join us as we explore the vibrant world of anime—where fantasy meets reality, and every story has the power to inspire.</p>
+    </section>
+
+    <section id="characters">
+        <h2>Featured Characters</h2>
+        <div class="character-card" onmouseover="showQuote('levi')" onmouseout="hideQuote('levi')">
+            <img src="levi.jpg" alt="Levi Ackerman">
+            <div class="quote" id="levi">
+                "I want to put an end to that recurring nightmare, right now. There are those who would get in my way. But I'm fine playing the role of the lunatic who kills people like that. I have to be ready to rearrange some faces. Because I choose the hell of humans killing each other over the hell of being eaten."
+            </div>
+        </div>
+        <div class="character-card" onmouseover="showQuote('light')" onmouseout="hideQuote('light')">
+            <img src="light.jpg" alt="Light Yagami">
+            <div class="quote" id="light">
+                "It's not our business to debate whether Kira is good or evil. We just have to catch Kira. If Kira is caught, he is evil. If Kira rules the world, he is justice."
+            </div>
+        </div>
+        <div class="character-card" onmouseover="showQuote('tanjiro')" onmouseout="hideQuote('tanjiro')">
+            <img src="tanjiro.jpg" alt="Tanjiro Kamado">
+            <div class="quote" id="tanjiro">
+                "In order to soothe the spirits of those it killed, and to make sure it claims no further victims, I will swing my blade down and lop off the head of any demon without mercy! But I will not belittle those who regret their actions and suffer over the things they did as demons. Because demons were once human. Because they were like me."
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Anime World. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
